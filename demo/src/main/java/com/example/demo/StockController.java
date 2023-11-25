@@ -80,7 +80,7 @@ public class StockController {
         // TODO: delete concert from DB
         repository.deleteById(id);
         // TODO: redirect to list concerts
-        return "redirect:/sttocks";
+        return "redirect:/stocks";
     }
 
     
